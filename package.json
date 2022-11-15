@@ -15,15 +15,17 @@
     "react-native": "0.70.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.1.6"
   },
   "engines": {
-    "npm": "USE PNPM",
-    "yarn": "USE PNPM",
-    "pnpm": ">=6.32.11"
+    "npm": "USE YARN",
+    "yarn": ">=1.22.19",
+    "pnpm": "USE YARN"
   },
   "private": true,
   "volta": {
-    "node": "18.12.1"
+    "node": "18.12.1",
+    "yarn": "1.22.19"
   }
 }
